@@ -2,6 +2,16 @@
 
 long calculate_factorial(int number )
 {
+   if(number<1||number>20)
+   {
+    return-1;
+   }
+   long fact=1;
+   for(int i=2;i<=number;i++)
+   {
+    fact=fact*i;
+   }
+   return fact;
     // TODO: write your code here
 }
 
